@@ -14,15 +14,28 @@ p {
 button {
     color: white;
     border: none;
-    font-size: 20px ;
+    font-size: 20px;
     border-radius: 8px;
     background: rgb(229, 84, 115);
     padding: 15px 30px;
-    cursor: pointer ;
+    cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(126, 45, 62);
+}
+
+.section-heading {
+    max-width: 500px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.section-heading h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
 }
 
 /* shared style */
@@ -62,3 +75,29 @@ header {
 
 
 /* header end */
+
+/* featured section */
+
+#feature{
+    padding: 100px 0;
+}
+
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flower .flower-img{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    /* padding: 20px 10px; */
+    height: 500px;
+}
+
+.section-content .flower .flower-img{
+    width: 100%;
+}
+
+/* featured section end */
